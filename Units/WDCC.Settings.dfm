@@ -30,7 +30,7 @@ object FrmSettings: TFrmSettings
       Top = 6
       Width = 674
       Height = 424
-      ActivePage = TabSheet4
+      ActivePage = TabSheet8
       Align = alClient
       TabOrder = 0
       object TabSheet4: TTabSheet
@@ -507,13 +507,11 @@ object FrmSettings: TFrmSettings
               Font.Pitch = fpFixed
               Font.Style = []
               TabOrder = 6
-              CodeFolding.GutterShapeSize = 11
               CodeFolding.CollapsedLineColor = clGrayText
               CodeFolding.FolderBarLinesColor = clGrayText
+              CodeFolding.ShowCollapsedLine = False
               CodeFolding.IndentGuidesColor = clGray
               CodeFolding.IndentGuides = True
-              CodeFolding.ShowCollapsedLine = False
-              CodeFolding.ShowHintMark = True
               UseCodeFolding = False
               Gutter.Color = 4598550
               Gutter.BorderColor = clYellow
@@ -526,7 +524,6 @@ object FrmSettings: TFrmSettings
               Gutter.GradientStartColor = 4539717
               Gutter.GradientEndColor = 2565927
               Highlighter = SynPasSyn1
-              FontSmoothing = fsmNone
             end
             object UpDown1: TUpDown
               Left = 523
@@ -607,10 +604,6 @@ object FrmSettings: TFrmSettings
       object TabSheet8: TTabSheet
         Caption = 'Compiler Options'
         ImageIndex = 5
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Label18: TLabel
           Left = 8
           Top = 16

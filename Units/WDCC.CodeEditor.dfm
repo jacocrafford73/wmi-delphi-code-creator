@@ -14,8 +14,6 @@ object FrmCodeEditor: TFrmCodeEditor
   OldCreateOrder = False
   Position = poScreenCenter
   OnCreate = FormCreate
-  ExplicitWidth = 320
-  ExplicitHeight = 240
   PixelsPerInch = 96
   TextHeight = 13
   object PanelLanguageSet: TPanel
@@ -81,13 +79,11 @@ object FrmCodeEditor: TFrmCodeEditor
     Font.Style = []
     PopupMenu = PopupActionBar1
     TabOrder = 2
-    CodeFolding.GutterShapeSize = 11
     CodeFolding.CollapsedLineColor = clGrayText
     CodeFolding.FolderBarLinesColor = clGrayText
+    CodeFolding.ShowCollapsedLine = False
     CodeFolding.IndentGuidesColor = clGray
     CodeFolding.IndentGuides = True
-    CodeFolding.ShowCollapsedLine = False
-    CodeFolding.ShowHintMark = True
     UseCodeFolding = False
     Gutter.Color = 4598550
     Gutter.BorderColor = clYellow
@@ -99,7 +95,6 @@ object FrmCodeEditor: TFrmCodeEditor
     Gutter.ShowLineNumbers = True
     Gutter.GradientStartColor = 4539717
     Gutter.GradientEndColor = 2565927
-    FontSmoothing = fsmNone
   end
   object ActionManager1: TActionManager
     ActionBars = <
@@ -231,7 +226,7 @@ object FrmCodeEditor: TFrmCodeEditor
     Left = 432
     Top = 152
     Bitmap = {
-      494C01010B000D00180010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C01010B000D00040010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000003000000001002000000000000030
       000000000000000000000000000000000000020202030F0F0F101717171A1717
       171A1717171A1717171A141414170F0F0F110A0A0A0B06060607060606070606
